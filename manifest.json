@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "2026.08.27.1",
-  "generatedAt": "2026-08-27T20:15:00Z",
+  "catalogVersion": "2026.08.27.2",
+  "generatedAt": "2026-08-27T22:07:48Z",
   "signatureAlgorithm": "SHA256withRSA",
   "packs": [
     {
@@ -19,11 +19,11 @@
       "id": "us-nj-north-central",
       "name": "North/Central Jersey pilot",
       "assetName": "regional_reviews_north_central_jersey_2026.json",
-      "version": 1,
+      "version": 2,
       "builtIn": false,
       "url": "https://raw.githubusercontent.com/Nogoodpunk42/garden-guide-regional-data/main/packs/regional_reviews_north_central_jersey_2026.json",
-      "sha256": "6a89603bf88b5e2c84ff637daf532786e6cef21a7e1e8d6de9552799ba9a19a8",
-      "sizeBytes": 921,
+      "sha256": "decc49405e048abd7fc412d39e2e8fed15539c94c9d9d94cf94a4683aa2e8c7e",
+      "sizeBytes": 1465,
       "minAppVersionCode": 45
     }
   ]

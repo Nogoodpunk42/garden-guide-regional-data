@@ -17,15 +17,16 @@ Garden Guide downloads the manifest and requested pack over HTTPS, verifies the 
 checks the pack SHA-256 and byte count, and installs the pack atomically. Recommendations continue to
 work from the validated local copy when the phone is offline.
 
-## Initial catalog
+## Current catalog
 
 | Region | Pack type | Eligible identities | Recommendation records |
 |---|---|---:|---:|
 | South Jersey | Full starter pack | 97 | 98 |
-| North/Central Jersey pilot | Selective inheritance | 25 | 26 |
+| North/Central Jersey pilot | Selective inheritance | 47 | 48 |
 
-The North/Central pack reuses statewide Rutgers-reviewed decisions by stable plant ID. It does not
-copy the universal plant library or duplicate the inherited review rows.
+The North/Central pack reuses statewide Rutgers-reviewed decisions by stable plant ID. Version 2
+adds 22 plants from Rutgers NJAES FS1140 that are identified as native to all or most New Jersey
+ecosystems. It does not copy the universal plant library or duplicate the inherited review rows.
 
 ## Editing a pack
 

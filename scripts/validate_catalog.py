@@ -11,6 +11,30 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ALLOWED_STATUSES = {"recommended", "conditional", "reference_only", "prohibited"}
+BATCH_02_IDS = {
+    "big_bluestem",
+    "blueberry",
+    "clustered_mountain_mint",
+    "coral_honeysuckle",
+    "golden_alexanders",
+    "golden_ragwort",
+    "inkberry_holly",
+    "new_england_aster",
+    "new_york_ironweed",
+    "northern_bayberry",
+    "northern_spicebush",
+    "pennsylvania_sedge",
+    "rudbeckia",
+    "serviceberry",
+    "spotted_joe_pye_weed",
+    "summersweet",
+    "swamp_milkweed",
+    "swamp_white_oak",
+    "sweet_fern",
+    "white_wood_aster",
+    "wild_bergamot",
+    "winterberry_holly",
+}
 
 
 def require(condition, message):
@@ -87,6 +111,8 @@ def main():
     require(manifest.get("schemaVersion") == 1, "manifest schemaVersion must be 1")
     require(manifest.get("signatureAlgorithm") == "SHA256withRSA",
             "manifest signature algorithm is unsupported")
+    require(manifest.get("catalogVersion") == "2026.08.27.2",
+            "catalogVersion must identify North/Central batch 02")
     packs = manifest.get("packs")
     require(isinstance(packs, list) and len(packs) == 2,
             "manifest must contain the two pilot packs")
@@ -100,6 +126,9 @@ def main():
                 f"{pack_id}: HTTPS pack URL is required")
         require(entry.get("minAppVersionCode") == 45,
                 f"{pack_id}: minAppVersionCode must be 45")
+        expected_version = 2 if pack_id == "us-nj-north-central" else 1
+        require(entry.get("version") == expected_version,
+                f"{pack_id}: expected pack version {expected_version}")
         path = ROOT / "packs" / entry["assetName"]
         content = path.read_bytes()
         require(len(content) == entry.get("sizeBytes"), f"{pack_id}: byte count mismatch")
@@ -116,16 +145,28 @@ def main():
             f"unexpected South Jersey counts: {south_counts}")
     require(north.get("reviews") == [], "North/Central pack must not copy inherited reviews")
     inherited = north["inherits"]["plantIds"]
-    require(len(inherited) == 25, "North/Central pack must inherit 25 identities")
+    require(len(inherited) == 47, "North/Central pack must inherit 47 identities")
+    require(inherited == sorted(inherited),
+            "North/Central inherited identities must be sorted")
+    require(BATCH_02_IDS.issubset(inherited),
+            "North/Central pack is missing a batch 02 identity")
     south_by_id = {review["plantId"]: review for review in south["reviews"]}
     keys = []
     for plant_id in inherited:
         require(plant_id in south_by_id, f"missing inherited South review: {plant_id}")
-        keys.extend(south_by_id[plant_id].get("recommendationKeys", []))
-    require(len(keys) == 26 and len(keys) == len(set(keys)),
-            "North/Central inheritance must cover 26 unique recommendation records")
+        review = south_by_id[plant_id]
+        require(review["status"] == "recommended",
+                f"North/Central inherited review is not recommended: {plant_id}")
+        require("njaes.rutgers.edu" in review["sourceUrl"],
+                f"North/Central inherited review is not Rutgers-backed: {plant_id}")
+        if plant_id in BATCH_02_IDS:
+            require(review["sourceUrl"] == "https://njaes.rutgers.edu/fs1140/",
+                    f"batch 02 identity is not backed by Rutgers FS1140: {plant_id}")
+        keys.extend(review.get("recommendationKeys", []))
+    require(len(keys) == 48 and len(keys) == len(set(keys)),
+            "North/Central inheritance must cover 48 unique recommendation records")
     verify_signature()
-    print("Catalog validation passed: 2 signed packs; South 98 records; North/Central 26 records")
+    print("Catalog validation passed: 2 signed packs; South 98 records; North/Central 48 records")
 
 
 if __name__ == "__main__":
