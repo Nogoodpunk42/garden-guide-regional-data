@@ -35,6 +35,7 @@ BATCH_02_IDS = {
     "wild_bergamot",
     "winterberry_holly",
 }
+BATCH_03_IDS = {"celery", "parsnip"}
 
 
 def require(condition, message):
@@ -111,8 +112,8 @@ def main():
     require(manifest.get("schemaVersion") == 1, "manifest schemaVersion must be 1")
     require(manifest.get("signatureAlgorithm") == "SHA256withRSA",
             "manifest signature algorithm is unsupported")
-    require(manifest.get("catalogVersion") == "2026.08.27.2",
-            "catalogVersion must identify North/Central batch 02")
+    require(manifest.get("catalogVersion") == "2026.08.27.3",
+            "catalogVersion must identify vegetable evidence correction 03")
     packs = manifest.get("packs")
     require(isinstance(packs, list) and len(packs) == 2,
             "manifest must contain the two pilot packs")
@@ -126,7 +127,7 @@ def main():
                 f"{pack_id}: HTTPS pack URL is required")
         require(entry.get("minAppVersionCode") == 45,
                 f"{pack_id}: minAppVersionCode must be 45")
-        expected_version = 2 if pack_id == "us-nj-north-central" else 1
+        expected_version = 3 if pack_id == "us-nj-north-central" else 2
         require(entry.get("version") == expected_version,
                 f"{pack_id}: expected pack version {expected_version}")
         path = ROOT / "packs" / entry["assetName"]
@@ -143,14 +144,24 @@ def main():
         south_counts[review["status"]] = south_counts.get(review["status"], 0) + 1
     require(south_counts == {"recommended": 92, "conditional": 5, "reference_only": 19},
             f"unexpected South Jersey counts: {south_counts}")
-    require(north.get("reviews") == [], "North/Central pack must not copy inherited reviews")
+    south_by_id = {review["plantId"]: review for review in south["reviews"]}
+    south_celery = south_by_id["celery"]
+    south_parsnip = south_by_id["parsnip"]
+    require(south_celery["sourceUrl"] == "https://njaes.rutgers.edu/fs129/" and
+            south_celery["plantingMonths"] == [5, 6],
+            "South Jersey celery must use Rutgers FS129 home-garden evidence")
+    require(south_parsnip["sourceUrl"] == "https://njaes.rutgers.edu/fs129/" and
+            south_parsnip["plantingMonths"] == [4],
+            "South Jersey parsnip must use Rutgers FS129 home-garden evidence")
+    north_reviews = north.get("reviews")
+    require({review["plantId"] for review in north_reviews} == BATCH_03_IDS,
+            "North/Central direct reviews must be the batch 03 overrides")
     inherited = north["inherits"]["plantIds"]
     require(len(inherited) == 47, "North/Central pack must inherit 47 identities")
     require(inherited == sorted(inherited),
             "North/Central inherited identities must be sorted")
     require(BATCH_02_IDS.issubset(inherited),
             "North/Central pack is missing a batch 02 identity")
-    south_by_id = {review["plantId"]: review for review in south["reviews"]}
     keys = []
     for plant_id in inherited:
         require(plant_id in south_by_id, f"missing inherited South review: {plant_id}")
@@ -163,10 +174,26 @@ def main():
             require(review["sourceUrl"] == "https://njaes.rutgers.edu/fs1140/",
                     f"batch 02 identity is not backed by Rutgers FS1140: {plant_id}")
         keys.extend(review.get("recommendationKeys", []))
-    require(len(keys) == 48 and len(keys) == len(set(keys)),
-            "North/Central inheritance must cover 48 unique recommendation records")
+    for review in north_reviews:
+        require(review["status"] == "recommended",
+                f"batch 03 review is not recommended: {review['plantId']}")
+        require(review["sourceUrl"] == "https://njaes.rutgers.edu/fs129/",
+                f"batch 03 review is not backed by Rutgers FS129: {review['plantId']}")
+        keys.extend(review.get("recommendationKeys", []))
+    require(len(inherited) + len(north_reviews) == 49,
+            "North/Central pack must cover 49 identities")
+    require(len(keys) == 50 and len(keys) == len(set(keys)),
+            "North/Central pack must cover 50 unique recommendation records")
+    celery = next(review for review in north_reviews if review["plantId"] == "celery")
+    parsnip = next(review for review in north_reviews if review["plantId"] == "parsnip")
+    require(celery["plantingAction"] == "Use transplants" and
+            celery["plantingMonths"] == [5, 6],
+            "celery must use the Rutgers FS129 home-garden window")
+    require(parsnip["plantingAction"] == "Direct sow fresh seed" and
+            parsnip["plantingMonths"] == [4],
+            "parsnip must use the Rutgers FS129 home-garden window")
     verify_signature()
-    print("Catalog validation passed: 2 signed packs; South 98 records; North/Central 48 records")
+    print("Catalog validation passed: 2 signed packs; South 98 records; North/Central 50 records")
 
 
 if __name__ == "__main__":

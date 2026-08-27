@@ -397,8 +397,8 @@
         "Celery"
       ],
       "reviewedAt": "August 2026",
-      "sourceLabel": "Rutgers NJAES · Mid-Atlantic celery culture",
-      "sourceUrl": "https://njaes.rutgers.edu/pubs/commercial-veg-rec/celery.pdf",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
       "plantingAction": "Use transplants",
       "plantingMonths": [
         5,
@@ -1107,11 +1107,10 @@
         "Parsnip"
       ],
       "reviewedAt": "August 2026",
-      "sourceLabel": "Rutgers NJAES · Mid-Atlantic parsnip culture",
-      "sourceUrl": "https://njaes.rutgers.edu/pubs/commercial-veg-rec/parsnips.pdf",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
       "plantingAction": "Direct sow fresh seed",
       "plantingMonths": [
-        3,
         4
       ]
     },
