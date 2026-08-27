@@ -11,7 +11,7 @@ BASE_URL = (
     "https://raw.githubusercontent.com/Nogoodpunk42/"
     "garden-guide-regional-data/main/packs"
 )
-CATALOG_VERSION = "2026.08.27.1"
+CATALOG_VERSION = "2026.08.27.2"
 PACKS = (
     {
         "id": "us-nj-south",
@@ -24,7 +24,7 @@ PACKS = (
         "id": "us-nj-north-central",
         "name": "North/Central Jersey pilot",
         "assetName": "regional_reviews_north_central_jersey_2026.json",
-        "version": 1,
+        "version": 2,
         "builtIn": False,
     },
 )
@@ -47,7 +47,7 @@ def main():
     manifest = {
         "schemaVersion": 1,
         "catalogVersion": CATALOG_VERSION,
-        "generatedAt": "2026-08-27T20:15:00Z",
+        "generatedAt": "2026-08-27T22:07:48Z",
         "signatureAlgorithm": "SHA256withRSA",
         "packs": published,
     }
