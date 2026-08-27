@@ -49,6 +49,9 @@ property matching remains responsible for those site-level constraints.
 
 ## Deliberate exclusions
 
+> Superseded by [vegetable evidence correction 03](vegetable-evidence-correction-03.md), which
+> identified Rutgers NJAES FS129 as suitable New Jersey home-garden evidence for both crops.
+
 Celery and parsnip were considered because existing South Jersey records cite Rutgers' 2026/2027
 Mid-Atlantic Commercial Vegetable Production Recommendations. Those publications explicitly say
 they are not for home-gardener use, so they were not promoted into North/Central batch 02. They can

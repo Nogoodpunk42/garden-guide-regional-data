@@ -22,11 +22,12 @@ work from the validated local copy when the phone is offline.
 | Region | Pack type | Eligible identities | Recommendation records |
 |---|---|---:|---:|
 | South Jersey | Full starter pack | 97 | 98 |
-| North/Central Jersey pilot | Selective inheritance | 47 | 48 |
+| North/Central Jersey pilot | Inheritance plus regional overrides | 49 | 50 |
 
 The North/Central pack reuses statewide Rutgers-reviewed decisions by stable plant ID. Version 2
 adds 22 plants from Rutgers NJAES FS1140 that are identified as native to all or most New Jersey
-ecosystems. It does not copy the universal plant library or duplicate the inherited review rows.
+ecosystems. Version 3 adds Rutgers FS129 home-garden records for celery and parsnip as direct
+regional overrides. It does not copy the universal plant library or duplicate inherited review rows.
 
 ## Editing a pack
 

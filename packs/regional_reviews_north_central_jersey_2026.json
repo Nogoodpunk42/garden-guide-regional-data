@@ -7,7 +7,7 @@
     "state": "NJ",
     "reviewedAt": "August 2026",
     "defaultStatus": "unreviewed",
-    "scopeNote": "Expanded pilot limited to 47 statewide Rutgers-reviewed plant identities."
+    "scopeNote": "Expanded pilot limited to 49 statewide Rutgers-reviewed plant identities."
   },
   "inherits": {
     "asset": "regional_reviews_south_jersey_2026.json",
@@ -61,5 +61,35 @@
       "zucchini"
     ]
   },
-  "reviews": []
+  "reviews": [
+    {
+      "plantId": "celery",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Celery"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Use transplants",
+      "plantingMonths": [
+        5,
+        6
+      ]
+    },
+    {
+      "plantId": "parsnip",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Parsnip"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Direct sow fresh seed",
+      "plantingMonths": [
+        4
+      ]
+    }
+  ]
 }
