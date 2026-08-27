@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "region": {
+    "id": "us-nj-north-central",
+    "name": "North/Central Jersey pilot",
+    "country": "US",
+    "state": "NJ",
+    "reviewedAt": "August 2026",
+    "defaultStatus": "unreviewed",
+    "scopeNote": "Initial proof region limited to 25 statewide Rutgers-reviewed plant identities."
+  },
+  "inherits": {
+    "asset": "regional_reviews_south_jersey_2026.json",
+    "plantIds": [
+      "american_holly",
+      "beet",
+      "broccoli",
+      "brussels_sprouts",
+      "bush_bean",
+      "butterfly_weed",
+      "buttonbush",
+      "cabbage",
+      "carrot",
+      "collard_greens",
+      "cucumber",
+      "eastern_red_cedar",
+      "endive",
+      "kale",
+      "kohlrabi",
+      "leek",
+      "lettuce",
+      "mustard_greens",
+      "napa_cabbage",
+      "radish",
+      "rutabaga",
+      "spinach",
+      "swiss_chard",
+      "turnip",
+      "zucchini"
+    ]
+  },
+  "reviews": []
+}

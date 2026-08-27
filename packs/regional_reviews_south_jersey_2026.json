@@ -1,0 +1,1776 @@
+{
+  "schemaVersion": 1,
+  "region": {
+    "id": "us-nj-south",
+    "name": "South Jersey",
+    "country": "US",
+    "state": "NJ",
+    "reviewedAt": "August 2026",
+    "defaultStatus": "unreviewed"
+  },
+  "reviews": [
+    {
+      "plantId": "american_cranberry",
+      "status": "recommended",
+      "recommendationKeys": [
+        "American cranberry"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Native groundcovers",
+      "sourceUrl": "https://extension.umd.edu/resource/groundcovers",
+      "plantingAction": "Nursery-grown plugs or vines",
+      "plantingMonths": [
+        3,
+        4
+      ]
+    },
+    {
+      "plantId": "american_holly",
+      "status": "recommended",
+      "recommendationKeys": [
+        "American holly"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "american_persimmon",
+      "status": "recommended",
+      "recommendationKeys": [
+        "American persimmon"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Less common fruits",
+      "sourceUrl": "https://extension.umd.edu/resource/less-common-fruits-home-garden",
+      "plantingAction": "Nursery-grown tree",
+      "plantingMonths": [
+        2,
+        3,
+        9,
+        10
+      ]
+    },
+    {
+      "plantId": "apple",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Apple tree"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Apples and pears",
+      "sourceUrl": "https://extension.umd.edu/resource/growing-apple-and-pear-trees-home-garden",
+      "plantingAction": "Nursery-grown tree",
+      "plantingMonths": [
+        2,
+        3,
+        9,
+        10
+      ]
+    },
+    {
+      "plantId": "apricot_tree",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Apricot tree"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Stone fruits",
+      "sourceUrl": "https://extension.umd.edu/resource/growing-stone-fruits-home-garden-cherries-peaches-plums",
+      "plantingAction": "Nursery-grown tree",
+      "plantingMonths": [
+        2,
+        3
+      ]
+    },
+    {
+      "plantId": "artichoke",
+      "status": "conditional",
+      "recommendationKeys": [
+        "Globe artichoke"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS044 · Globe artichoke",
+      "sourceUrl": "https://njaes.rutgers.edu/pubs/download.php?strPubID=FS044",
+      "plantingAction": "Use vernalized transplants",
+      "plantingMonths": [
+        5
+      ],
+      "condition": "Treat as an advanced annual crop requiring vernalized transplants, substantial space, and steady moisture."
+    },
+    {
+      "plantId": "arugula",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Arugula"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        8,
+        9
+      ]
+    },
+    {
+      "plantId": "asparagus",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Asparagus"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Disease-free crowns",
+      "plantingMonths": [
+        3,
+        4
+      ]
+    },
+    {
+      "plantId": "basil",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Basil"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Growing basil",
+      "sourceUrl": "https://extension.umd.edu/resource/growing-basil-home-garden",
+      "plantingAction": "Direct sow after frost or use transplants",
+      "plantingMonths": [
+        5,
+        6
+      ]
+    },
+    {
+      "plantId": "beet",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Beets"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "plantId": "big_bluestem",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Big bluestem"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "blackberry",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Blackberry"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Raspberries and blackberries",
+      "sourceUrl": "https://extension.umd.edu/resource/growing-raspberries-and-blackberries-home-garden",
+      "plantingAction": "Bare-root or potted plant",
+      "plantingMonths": [
+        3,
+        4
+      ]
+    },
+    {
+      "plantId": "blueberry",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Highbush blueberry"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "bok_choy",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Bok choy"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        4,
+        5,
+        8,
+        9
+      ]
+    },
+    {
+      "plantId": "borage",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "Direct-sow and succession culture are documented, but not a precise regional planting month.",
+      "sourceLabel": "University of Maryland Extension · Borage",
+      "sourceUrl": "https://extension.umd.edu/resource/borage"
+    },
+    {
+      "plantId": "broccoli",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Broccoli"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Use transplants",
+      "plantingMonths": [
+        4,
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "plantId": "brussels_sprouts",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Brussels sprouts"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Use transplants",
+      "plantingMonths": [
+        7
+      ]
+    },
+    {
+      "plantId": "bush_bean",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Bush snap beans"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "plantId": "butterfly_weed",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Butterfly milkweed"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "buttonbush",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Buttonbush"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "cabbage",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Cabbage"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Use transplants",
+      "plantingMonths": [
+        4,
+        7
+      ]
+    },
+    {
+      "plantId": "carrot",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Carrots"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "plantId": "cauliflower",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Cauliflower"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Use transplants",
+      "plantingMonths": [
+        4,
+        7
+      ]
+    },
+    {
+      "plantId": "celeriac",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "The current Rutgers celery chapter does not cover celeriac.",
+      "sourceLabel": "Cornell Cooperative Extension Home Gardening vegetable growing guides",
+      "sourceUrl": "https://www.gardening.cornell.edu/homegardening/scene0391.html"
+    },
+    {
+      "plantId": "celery",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Celery"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES · Mid-Atlantic celery culture",
+      "sourceUrl": "https://njaes.rutgers.edu/pubs/commercial-veg-rec/celery.pdf",
+      "plantingAction": "Use transplants",
+      "plantingMonths": [
+        5,
+        6
+      ]
+    },
+    {
+      "plantId": "chamomile",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "Only general regional herb-care evidence was found; timing remains unverified.",
+      "sourceLabel": "University of Maryland Extension · Care of herbs",
+      "sourceUrl": "https://extension.umd.edu/resource/care-herbs-and-starting-herbs-seed"
+    },
+    {
+      "plantId": "chili",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Chili pepper"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Use transplants",
+      "plantingMonths": [
+        5,
+        6
+      ]
+    },
+    {
+      "plantId": "chives",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Chives"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Chives",
+      "sourceUrl": "https://extension.umd.edu/resource/chives",
+      "plantingAction": "Use seed, transplants, or divisions",
+      "plantingMonths": [
+        4,
+        5
+      ]
+    },
+    {
+      "plantId": "cilantro",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "Regional culture is sourced, but this review did not establish a sufficiently precise month-level window.",
+      "sourceLabel": "University of Maryland Extension · Cilantro/Coriander",
+      "sourceUrl": "https://extension.umd.edu/resource/cilantrocoriander"
+    },
+    {
+      "plantId": "clustered_mountain_mint",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Mountain mint"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "collard_greens",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Collards"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "plantId": "coral_honeysuckle",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Coral honeysuckle"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "corn",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Sweet corn"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "plantId": "corn_salad",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "No sufficiently precise Mid-Atlantic planting source was found in this pass.",
+      "sourceLabel": "Cornell Cooperative Extension Home Gardening vegetable growing guides",
+      "sourceUrl": "https://www.gardening.cornell.edu/homegardening/scene0391.html"
+    },
+    {
+      "plantId": "cucumber",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Cucumbers"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Seed or transplant",
+      "plantingMonths": [
+        6,
+        7
+      ]
+    },
+    {
+      "plantId": "dill",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Dill"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Dill",
+      "sourceUrl": "https://extension.umd.edu/resource/dill",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        5,
+        6
+      ]
+    },
+    {
+      "plantId": "eastern_red_cedar",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Eastern redcedar"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "edamame",
+      "status": "conditional",
+      "recommendationKeys": [
+        "Edamame"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS041 · Edamame",
+      "sourceUrl": "https://njaes.rutgers.edu/pubs/download.php?strPubID=FS041",
+      "plantingAction": "Direct sow seed after soil warms",
+      "plantingMonths": [
+        5,
+        6
+      ],
+      "condition": "Pods are not edible, and wildlife exclusion may be needed."
+    },
+    {
+      "plantId": "eggplant",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Eggplant"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Use transplants",
+      "plantingMonths": [
+        5,
+        6
+      ]
+    },
+    {
+      "plantId": "elderberry",
+      "status": "recommended",
+      "recommendationKeys": [
+        "American elderberry"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Less common fruits",
+      "sourceUrl": "https://extension.umd.edu/resource/less-common-fruits-home-garden",
+      "plantingAction": "Nursery-grown shrub",
+      "plantingMonths": [
+        2,
+        3,
+        9,
+        10
+      ]
+    },
+    {
+      "plantId": "endive",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Endive"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Seed or transplant",
+      "plantingMonths": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "plantId": "escarole",
+      "status": "conditional",
+      "recommendationKeys": [
+        "Escarole"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES · Mid-Atlantic escarole culture",
+      "sourceUrl": "https://njaes.rutgers.edu/pubs/commercial-veg-rec/lettuce-endive-escarole.pdf",
+      "plantingAction": "Use transplants or direct sow seed",
+      "plantingMonths": [
+        3,
+        4,
+        8
+      ],
+      "condition": "Use the cool spring or late-summer window; heat can cause bitterness, tipburn, or bolting."
+    },
+    {
+      "plantId": "fava_bean",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "The current Rutgers bean chapter does not cover fava beans.",
+      "sourceLabel": "Cornell Cooperative Extension Home Gardening vegetable growing guides",
+      "sourceUrl": "https://www.gardening.cornell.edu/homegardening/scene0391.html"
+    },
+    {
+      "plantId": "fig",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Fig"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Figs",
+      "sourceUrl": "https://extension.umd.edu/resource/growing-figs-maryland",
+      "plantingAction": "Nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        10
+      ]
+    },
+    {
+      "plantId": "florence_fennel",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "General herb guidance does not establish regional timing for the bulbing crop.",
+      "sourceLabel": "Cornell Cooperative Extension Home Gardening vegetable growing guides",
+      "sourceUrl": "https://www.gardening.cornell.edu/homegardening/scene0391.html"
+    },
+    {
+      "plantId": "garlic",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Garlic"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Plant individual cloves",
+      "plantingMonths": [
+        3,
+        4,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "golden_alexanders",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Golden Alexander"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "golden_ragwort",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Golden ragwort"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "gooseberry",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Gooseberry"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Less common fruits",
+      "sourceUrl": "https://extension.umd.edu/resource/less-common-fruits-home-garden",
+      "plantingAction": "Nursery-grown shrub",
+      "plantingMonths": [
+        2,
+        3,
+        9,
+        10
+      ]
+    },
+    {
+      "plantId": "grape",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Grape vine"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Grapes",
+      "sourceUrl": "https://extension.umd.edu/resource/growing-grapes-home-garden",
+      "plantingAction": "Bare-root or potted vine",
+      "plantingMonths": [
+        3,
+        4
+      ]
+    },
+    {
+      "plantId": "hardy_kiwi",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "New Jersey invasive-species guidance advises against planting hardy kiwi.",
+      "sourceLabel": "New Jersey Invasive Species Strike Team · Do Not Plant List",
+      "sourceUrl": "https://www.princetonnj.gov/DocumentCenter/View/1314/Strike-Team-Do-Not-Plant-List-PDF"
+    },
+    {
+      "plantId": "inkberry_holly",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Inkberry holly"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "kale",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Kale"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Direct sow or use transplants",
+      "plantingMonths": [
+        7,
+        8
+      ]
+    },
+    {
+      "plantId": "kohlrabi",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Kohlrabi"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Seed or transplant",
+      "plantingMonths": [
+        4,
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "plantId": "leek",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Leeks"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Use transplants",
+      "plantingMonths": [
+        4,
+        5,
+        8
+      ]
+    },
+    {
+      "plantId": "lemon_balm",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "Only general regional herb-care evidence was found; timing remains unverified.",
+      "sourceLabel": "University of Maryland Extension · Care of herbs",
+      "sourceUrl": "https://extension.umd.edu/resource/care-herbs-and-starting-herbs-seed"
+    },
+    {
+      "plantId": "lettuce",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Leaf lettuce",
+        "Bibb lettuce"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Seed or transplant",
+      "plantingMonths": [
+        4,
+        5,
+        8,
+        9
+      ]
+    },
+    {
+      "plantId": "lima_bean",
+      "status": "conditional",
+      "recommendationKeys": [
+        "Lima bean"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES · Mid-Atlantic lima bean culture",
+      "sourceUrl": "https://njaes.rutgers.edu/pubs/commercial-veg-rec/beans-snap-lima.pdf",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        5,
+        6,
+        7
+      ],
+      "condition": "Choose timing by cultivar; very hot weather during bloom can reduce pod set."
+    },
+    {
+      "plantId": "melon",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Melon"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        5,
+        6
+      ]
+    },
+    {
+      "plantId": "mint",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "Culture and propagation are documented, but a precise regional outdoor planting month was not verified.",
+      "sourceLabel": "University of Maryland Extension · Mint",
+      "sourceUrl": "https://extension.umd.edu/resource/growing-mint-home-garden"
+    },
+    {
+      "plantId": "mizuna",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "Regional suitability evidence was not precise enough to support a confident timing recommendation.",
+      "sourceLabel": "Cornell Cooperative Extension Home Gardening vegetable growing guides",
+      "sourceUrl": "https://www.gardening.cornell.edu/homegardening/scene0391.html"
+    },
+    {
+      "plantId": "mustard_greens",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Mustard greens"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        8
+      ]
+    },
+    {
+      "plantId": "napa_cabbage",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Chinese cabbage"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Seed or transplant",
+      "plantingMonths": [
+        4,
+        7
+      ]
+    },
+    {
+      "plantId": "nectarine_tree",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Nectarine tree"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Stone fruits",
+      "sourceUrl": "https://extension.umd.edu/resource/growing-stone-fruits-home-garden-cherries-peaches-plums",
+      "plantingAction": "Nursery-grown tree",
+      "plantingMonths": [
+        2,
+        3
+      ]
+    },
+    {
+      "plantId": "new_england_aster",
+      "status": "recommended",
+      "recommendationKeys": [
+        "New England aster"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "new_york_ironweed",
+      "status": "recommended",
+      "recommendationKeys": [
+        "New York ironweed"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "northern_bayberry",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Northern bayberry"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "northern_spicebush",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Spicebush"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "okra",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Okra"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        5
+      ]
+    },
+    {
+      "plantId": "onion",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Onion"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Use transplants",
+      "plantingMonths": [
+        4
+      ]
+    },
+    {
+      "plantId": "oregano",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "Regional site and propagation guidance are documented without a precise planting month.",
+      "sourceLabel": "University of Maryland Extension · Oregano",
+      "sourceUrl": "https://extension.umd.edu/resource/oregano"
+    },
+    {
+      "plantId": "parsley",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Parsley"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        4
+      ]
+    },
+    {
+      "plantId": "parsnip",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Parsnip"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES · Mid-Atlantic parsnip culture",
+      "sourceUrl": "https://njaes.rutgers.edu/pubs/commercial-veg-rec/parsnips.pdf",
+      "plantingAction": "Direct sow fresh seed",
+      "plantingMonths": [
+        3,
+        4
+      ]
+    },
+    {
+      "plantId": "pawpaw",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Pawpaw"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Less common fruits",
+      "sourceUrl": "https://extension.umd.edu/resource/less-common-fruits-home-garden",
+      "plantingAction": "Nursery-grown tree",
+      "plantingMonths": [
+        2,
+        3,
+        9,
+        10
+      ]
+    },
+    {
+      "plantId": "pea",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Garden pea"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        3,
+        4
+      ]
+    },
+    {
+      "plantId": "peach_tree",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Peach tree"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Stone fruits",
+      "sourceUrl": "https://extension.umd.edu/resource/growing-stone-fruits-home-garden-cherries-peaches-plums",
+      "plantingAction": "Nursery-grown tree",
+      "plantingMonths": [
+        2,
+        3
+      ]
+    },
+    {
+      "plantId": "pear_tree",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Pear tree"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Apples and pears",
+      "sourceUrl": "https://extension.umd.edu/resource/growing-apple-and-pear-trees-home-garden",
+      "plantingAction": "Nursery-grown tree",
+      "plantingMonths": [
+        2,
+        3,
+        9,
+        10
+      ]
+    },
+    {
+      "plantId": "pennsylvania_sedge",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Pennsylvania sedge"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "pepper",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Sweet pepper"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Use transplants",
+      "plantingMonths": [
+        5,
+        6
+      ]
+    },
+    {
+      "plantId": "plum_tree",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Plum tree"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Stone fruits",
+      "sourceUrl": "https://extension.umd.edu/resource/growing-stone-fruits-home-garden-cherries-peaches-plums",
+      "plantingAction": "Nursery-grown tree",
+      "plantingMonths": [
+        2,
+        3
+      ]
+    },
+    {
+      "plantId": "potato",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Potato"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Growing potatoes",
+      "sourceUrl": "https://extension.umd.edu/resource/growing-potatoes-home-garden",
+      "plantingAction": "Plant certified seed-potato pieces",
+      "plantingMonths": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "plantId": "quince",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Quince"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Cornell Cooperative Extension · Growing fruit at home",
+      "sourceUrl": "https://archive.sebs.rutgers.edu/wp-content/uploads/Cornell_Guide_to_Growing_Fruit.pdf",
+      "plantingAction": "Nursery-grown tree",
+      "plantingMonths": [
+        2,
+        3,
+        9,
+        10
+      ]
+    },
+    {
+      "plantId": "radicchio",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "A crop-specific regional month window was not verified.",
+      "sourceLabel": "Cornell Cooperative Extension Home Gardening vegetable growing guides",
+      "sourceUrl": "https://www.gardening.cornell.edu/homegardening/scene0391.html"
+    },
+    {
+      "plantId": "radish",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Radishes"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "plantId": "raspberry",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Raspberry"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Raspberries and blackberries",
+      "sourceUrl": "https://extension.umd.edu/resource/growing-raspberries-and-blackberries-home-garden",
+      "plantingAction": "Bare-root or potted plant",
+      "plantingMonths": [
+        3,
+        4
+      ]
+    },
+    {
+      "plantId": "red_currant",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Red currant"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Less common fruits",
+      "sourceUrl": "https://extension.umd.edu/resource/less-common-fruits-home-garden",
+      "plantingAction": "Nursery-grown shrub",
+      "plantingMonths": [
+        2,
+        3,
+        9,
+        10
+      ]
+    },
+    {
+      "plantId": "rhubarb",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "A recommendation-grade South Jersey establishment window still needs verification.",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting guidance",
+      "sourceUrl": "https://extension.umd.edu/resource/planting-vegetable-transplants"
+    },
+    {
+      "plantId": "rosemary",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "Sun, drainage, and winter protection are documented, but a precise regional planting month was not verified.",
+      "sourceLabel": "University of Maryland Extension · Rosemary",
+      "sourceUrl": "https://extension.umd.edu/resource/rosemary"
+    },
+    {
+      "plantId": "rudbeckia",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Orange coneflower"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "rutabaga",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Rutabagas"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        4,
+        7
+      ]
+    },
+    {
+      "plantId": "sage",
+      "status": "conditional",
+      "recommendationKeys": [
+        "Sage"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Sage",
+      "sourceUrl": "https://extension.umd.edu/resource/sage",
+      "plantingAction": "Use a transplant or rooted cutting",
+      "plantingMonths": [
+        5
+      ],
+      "condition": "Plant after frost in very well-drained soil so the perennial has a realistic chance of overwintering."
+    },
+    {
+      "plantId": "serviceberry",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Serviceberry"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "sour_cherry",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Sour cherry tree"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Stone fruits",
+      "sourceUrl": "https://extension.umd.edu/resource/growing-stone-fruits-home-garden-cherries-peaches-plums",
+      "plantingAction": "Nursery-grown tree",
+      "plantingMonths": [
+        2,
+        3
+      ]
+    },
+    {
+      "plantId": "spinach",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Spinach"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        4,
+        9
+      ]
+    },
+    {
+      "plantId": "spotted_joe_pye_weed",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Spotted joe-pye-weed"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "strawberry",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Strawberry"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Strawberries",
+      "sourceUrl": "https://extension.umd.edu/resource/growing-strawberries-home-garden",
+      "plantingAction": "Bare-root crowns or transplants",
+      "plantingMonths": [
+        3,
+        4
+      ]
+    },
+    {
+      "plantId": "summersweet",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Sweet pepperbush"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "sunchoke",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "Aggressive tuber spread requires local containment guidance before this can be recommended.",
+      "sourceLabel": "University of Minnesota Extension · Perennial weeds",
+      "sourceUrl": "https://extension.umn.edu/agriculture/crop-production/weed-management/perennial-weeds"
+    },
+    {
+      "plantId": "swamp_milkweed",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Swamp milkweed"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "swamp_white_oak",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Swamp white oak"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "sweet_cherry",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Sweet cherry tree"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Stone fruits",
+      "sourceUrl": "https://extension.umd.edu/resource/growing-stone-fruits-home-garden-cherries-peaches-plums",
+      "plantingAction": "Nursery-grown tree",
+      "plantingMonths": [
+        2,
+        3
+      ]
+    },
+    {
+      "plantId": "sweet_fern",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Sweet fern"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "sweet_potato",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Sweet potato"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Set out slips",
+      "plantingMonths": [
+        5,
+        6
+      ]
+    },
+    {
+      "plantId": "swiss_chard",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Swiss chard"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "plantId": "tarragon",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "Division, drainage, and winter protection are documented, but not a precise regional planting month.",
+      "sourceLabel": "University of Maryland Extension · Tarragon",
+      "sourceUrl": "https://extension.umd.edu/resource/tarragon"
+    },
+    {
+      "plantId": "thyme",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "Regional site and propagation guidance are documented without a precise planting month.",
+      "sourceLabel": "University of Maryland Extension · Thyme",
+      "sourceUrl": "https://extension.umd.edu/resource/thyme"
+    },
+    {
+      "plantId": "tomatillo",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Tomatillo"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Use transplants",
+      "plantingMonths": [
+        5,
+        6
+      ]
+    },
+    {
+      "plantId": "tomato",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Tomato"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Use transplants",
+      "plantingMonths": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "plantId": "turnip",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Turnips"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        4,
+        7
+      ]
+    },
+    {
+      "plantId": "watercress",
+      "status": "reference_only",
+      "reviewedAt": "August 2026",
+      "condition": "Home-garden timing and controlled-water food-safety guidance were not both verified.",
+      "sourceLabel": "Cornell Cooperative Extension Home Gardening vegetable growing guides",
+      "sourceUrl": "https://www.gardening.cornell.edu/homegardening/scene0391.html"
+    },
+    {
+      "plantId": "watermelon",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Watermelon"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        5,
+        6
+      ]
+    },
+    {
+      "plantId": "white_wood_aster",
+      "status": "recommended",
+      "recommendationKeys": [
+        "White wood aster"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "wild_bergamot",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Wild bergamot"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "winter_squash",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Winter squash"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Maryland Extension · Vegetable planting calendar",
+      "sourceUrl": "https://extension.umd.edu/resource/when-plant-vegetables",
+      "plantingAction": "Direct sow seed",
+      "plantingMonths": [
+        5,
+        6
+      ]
+    },
+    {
+      "plantId": "winterberry_holly",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Winterberry holly"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS1140",
+      "sourceUrl": "https://njaes.rutgers.edu/fs1140/",
+      "plantingAction": "Plant a nursery-grown plant",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "zucchini",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Bush squash"
+      ],
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Rutgers NJAES FS129",
+      "sourceUrl": "https://njaes.rutgers.edu/fs129/",
+      "plantingAction": "Seed or transplant",
+      "plantingMonths": [
+        6,
+        7
+      ]
+    }
+  ]
+}
