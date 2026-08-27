@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://garden-guide.example/schemas/regional-pack.schema.json",
+  "title": "Garden Guide regional evidence pack",
+  "type": "object",
+  "required": ["schemaVersion", "region", "reviews"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "region": {
+      "type": "object",
+      "required": ["id", "name", "reviewedAt", "defaultStatus"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "name": {"type": "string", "minLength": 1},
+        "country": {"type": "string"},
+        "state": {"type": "string"},
+        "reviewedAt": {"type": "string", "minLength": 1},
+        "defaultStatus": {"const": "unreviewed"},
+        "scopeNote": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "inherits": {
+      "type": "object",
+      "required": ["asset", "plantIds"],
+      "properties": {
+        "asset": {"type": "string", "minLength": 1},
+        "plantIds": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "reviews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["plantId", "status", "reviewedAt", "sourceLabel", "sourceUrl"],
+        "properties": {
+          "plantId": {"type": "string", "minLength": 1},
+          "status": {
+            "enum": ["recommended", "conditional", "reference_only", "prohibited"]
+          },
+          "recommendationKeys": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          },
+          "reviewedAt": {"type": "string", "minLength": 1},
+          "sourceLabel": {"type": "string", "minLength": 1},
+          "sourceUrl": {"type": "string", "pattern": "^https://"},
+          "plantingAction": {"type": "string"},
+          "plantingMonths": {
+            "type": "array",
+            "items": {"type": "integer", "minimum": 1, "maximum": 12},
+            "uniqueItems": true
+          },
+          "condition": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

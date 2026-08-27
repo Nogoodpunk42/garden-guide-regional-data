@@ -1,0 +1,21 @@
+name: Validate regional catalog
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out catalog
+        uses: actions/checkout@v6
+
+      - name: Validate manifest, packs, and signature
+        run: python3 scripts/validate_catalog.py

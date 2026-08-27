@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "2026.08.27.1",
+  "generatedAt": "2026-08-27T20:15:00Z",
+  "signatureAlgorithm": "SHA256withRSA",
+  "packs": [
+    {
+      "id": "us-nj-south",
+      "name": "South Jersey",
+      "assetName": "regional_reviews_south_jersey_2026.json",
+      "version": 1,
+      "builtIn": true,
+      "url": "https://raw.githubusercontent.com/Nogoodpunk42/garden-guide-regional-data/main/packs/regional_reviews_south_jersey_2026.json",
+      "sha256": "421af6160d989360d3cfb23c63264c515ed60f996c63759ac9c26e7b97d58d0e",
+      "sizeBytes": 49396,
+      "minAppVersionCode": 45
+    },
+    {
+      "id": "us-nj-north-central",
+      "name": "North/Central Jersey pilot",
+      "assetName": "regional_reviews_north_central_jersey_2026.json",
+      "version": 1,
+      "builtIn": false,
+      "url": "https://raw.githubusercontent.com/Nogoodpunk42/garden-guide-regional-data/main/packs/regional_reviews_north_central_jersey_2026.json",
+      "sha256": "6a89603bf88b5e2c84ff637daf532786e6cef21a7e1e8d6de9552799ba9a19a8",
+      "sizeBytes": 921,
+      "minAppVersionCode": 45
+    }
+  ]
+}
