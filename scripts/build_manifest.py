@@ -11,7 +11,7 @@ BASE_URL = (
     "https://raw.githubusercontent.com/Nogoodpunk42/"
     "garden-guide-regional-data/main/packs"
 )
-CATALOG_VERSION = "2026.08.28.1"
+CATALOG_VERSION = "2026.08.28.2"
 PACKS = (
     {
         "id": "us-nj-south",
@@ -54,6 +54,26 @@ PACKS = (
             },
         },
     },
+    {
+        "id": "us-delaware-valley",
+        "name": "Philadelphia/Delaware Valley pilot",
+        "assetName": "regional_reviews_delaware_valley_2026.json",
+        "version": 1,
+        "builtIn": False,
+        "minAppVersionCode": 47,
+        "coverage": {
+            "country": "US",
+            "state": "PA/DE",
+            "priority": 100,
+            "zipPrefixRanges": [{"start": 190, "end": 199}],
+            "bounds": {
+                "minLatitude": 39.40,
+                "maxLatitude": 40.65,
+                "minLongitude": -76.20,
+                "maxLongitude": -75.150001,
+            },
+        },
+    },
 )
 
 
@@ -67,14 +87,14 @@ def main():
             "url": f"{BASE_URL}/{pack['assetName']}",
             "sha256": hashlib.sha256(content).hexdigest(),
             "sizeBytes": len(content),
-            "minAppVersionCode": 45,
+            "minAppVersionCode": pack.get("minAppVersionCode", 45),
         })
         published.append(item)
 
     manifest = {
         "schemaVersion": 1,
         "catalogVersion": CATALOG_VERSION,
-        "generatedAt": "2026-08-28T19:34:24Z",
+        "generatedAt": "2026-08-28T22:00:54Z",
         "signatureAlgorithm": "SHA256withRSA",
         "packs": published,
     }

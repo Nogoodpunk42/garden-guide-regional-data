@@ -25,11 +25,17 @@ work from the validated local copy when the phone is offline.
 |---|---|---:|---:|
 | South Jersey | Full starter pack | 97 | 98 |
 | North/Central Jersey pilot | Inheritance plus regional overrides | 49 | 50 |
+| Philadelphia/Delaware Valley pilot | Direct Mid-Atlantic reviews | 45 | 46 |
 
 The North/Central pack reuses statewide Rutgers-reviewed decisions by stable plant ID. Version 2
 adds 22 plants from Rutgers NJAES FS1140 that are identified as native to all or most New Jersey
 ecosystems. Version 3 adds Rutgers FS129 home-garden records for celery and parsnip as direct
 regional overrides. It does not copy the universal plant library or duplicate inherited review rows.
+
+The Philadelphia/Delaware Valley pilot is the first data-only expansion outside New Jersey. It
+contains 26 vegetables with University of Delaware Cooperative Extension planting windows and 19
+native landscape plants listed by the Philadelphia Water Department. All other universal plants
+remain unreviewed and cannot surface as confident regional recommendations.
 
 ## Editing a pack
 

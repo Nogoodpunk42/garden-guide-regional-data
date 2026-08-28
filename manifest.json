@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "2026.08.28.1",
-  "generatedAt": "2026-08-28T19:34:24Z",
+  "catalogVersion": "2026.08.28.2",
+  "generatedAt": "2026-08-28T22:00:54Z",
   "signatureAlgorithm": "SHA256withRSA",
   "packs": [
     {
@@ -63,6 +63,34 @@
       "sha256": "565376b419e250b377563bd156502bab8f9b73308cf635408f6f2893ad5e06f9",
       "sizeBytes": 2182,
       "minAppVersionCode": 45
+    },
+    {
+      "id": "us-delaware-valley",
+      "name": "Philadelphia/Delaware Valley pilot",
+      "assetName": "regional_reviews_delaware_valley_2026.json",
+      "version": 1,
+      "builtIn": false,
+      "minAppVersionCode": 47,
+      "coverage": {
+        "country": "US",
+        "state": "PA/DE",
+        "priority": 100,
+        "zipPrefixRanges": [
+          {
+            "start": 190,
+            "end": 199
+          }
+        ],
+        "bounds": {
+          "minLatitude": 39.4,
+          "maxLatitude": 40.65,
+          "minLongitude": -76.2,
+          "maxLongitude": -75.150001
+        }
+      },
+      "url": "https://raw.githubusercontent.com/Nogoodpunk42/garden-guide-regional-data/main/packs/regional_reviews_delaware_valley_2026.json",
+      "sha256": "d383a8bb292018c8d3f4c4e05d7b3e347950421aab4183fdb2593b8cb26fd0d2",
+      "sizeBytes": 23773
     }
   ]
 }
