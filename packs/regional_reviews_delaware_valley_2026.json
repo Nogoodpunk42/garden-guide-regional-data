@@ -1,0 +1,781 @@
+{
+  "schemaVersion": 1,
+  "region": {
+    "id": "us-delaware-valley",
+    "name": "Philadelphia/Delaware Valley pilot",
+    "country": "US",
+    "state": "PA/DE",
+    "reviewedAt": "August 2026",
+    "defaultStatus": "unreviewed",
+    "scopeNote": "Initial data-only pilot limited to 26 University of Delaware-reviewed vegetables and 19 Philadelphia-listed native landscape plants."
+  },
+  "reviews": [
+    {
+      "plantId": "arugula",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Arugula"
+      ],
+      "plantingAction": "Direct sow seed",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Grow Your Own Food",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/environmental-stewardship/lawn-and-garden/grow-your-own/",
+      "plantingMonths": [
+        4,
+        5
+      ]
+    },
+    {
+      "plantId": "beet",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Beets"
+      ],
+      "plantingAction": "Direct sow seed",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        4,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "plantId": "big_bluestem",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Big bluestem"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "broccoli",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Broccoli"
+      ],
+      "plantingAction": "Use transplants",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        3,
+        4,
+        7,
+        8
+      ]
+    },
+    {
+      "plantId": "brussels_sprouts",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Brussels sprouts"
+      ],
+      "plantingAction": "Use transplants",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        7,
+        8
+      ]
+    },
+    {
+      "plantId": "bush_bean",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Bush snap beans"
+      ],
+      "plantingAction": "Direct sow seed",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "plantId": "butterfly_weed",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Butterfly milkweed"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "buttonbush",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Buttonbush"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "cabbage",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Cabbage"
+      ],
+      "plantingAction": "Use transplants",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        3,
+        4,
+        7,
+        8
+      ]
+    },
+    {
+      "plantId": "carrot",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Carrots"
+      ],
+      "plantingAction": "Direct sow seed",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        4,
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "plantId": "cauliflower",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Cauliflower"
+      ],
+      "plantingAction": "Use transplants",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        4,
+        7,
+        8
+      ]
+    },
+    {
+      "plantId": "chili",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Chili pepper"
+      ],
+      "plantingAction": "Use transplants",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        5
+      ]
+    },
+    {
+      "plantId": "collard_greens",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Collards"
+      ],
+      "plantingAction": "Direct sow seed",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Grow Your Own Food",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/environmental-stewardship/lawn-and-garden/grow-your-own/",
+      "plantingMonths": [
+        4,
+        5
+      ]
+    },
+    {
+      "plantId": "coral_honeysuckle",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Coral honeysuckle"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "corn",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Sweet corn"
+      ],
+      "plantingAction": "Direct sow seed",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "plantId": "cucumber",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Cucumbers"
+      ],
+      "plantingAction": "Seed or transplant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        5
+      ]
+    },
+    {
+      "plantId": "eggplant",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Eggplant"
+      ],
+      "plantingAction": "Use transplants",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        5
+      ]
+    },
+    {
+      "plantId": "golden_alexanders",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Golden Alexander"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "kale",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Kale"
+      ],
+      "plantingAction": "Direct sow or use transplants",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        3,
+        4,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "plantId": "kohlrabi",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Kohlrabi"
+      ],
+      "plantingAction": "Seed or transplant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        3,
+        4,
+        8
+      ]
+    },
+    {
+      "plantId": "lettuce",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Leaf lettuce",
+        "Bibb lettuce"
+      ],
+      "plantingAction": "Seed or transplant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        4,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "plantId": "melon",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Melon"
+      ],
+      "plantingAction": "Direct sow seed",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        5
+      ]
+    },
+    {
+      "plantId": "new_york_ironweed",
+      "status": "recommended",
+      "recommendationKeys": [
+        "New York ironweed"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "northern_bayberry",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Northern bayberry"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "northern_spicebush",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Spicebush"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "onion",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Onion"
+      ],
+      "plantingAction": "Use transplants",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        3,
+        4
+      ]
+    },
+    {
+      "plantId": "pawpaw",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Pawpaw"
+      ],
+      "plantingAction": "Nursery-grown tree",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "pea",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Garden pea"
+      ],
+      "plantingAction": "Direct sow seed",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        3,
+        4,
+        7,
+        8
+      ]
+    },
+    {
+      "plantId": "radish",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Radishes"
+      ],
+      "plantingAction": "Direct sow seed",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        3,
+        4,
+        8,
+        9
+      ]
+    },
+    {
+      "plantId": "rudbeckia",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Orange coneflower"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "serviceberry",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Serviceberry"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "spinach",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Spinach"
+      ],
+      "plantingAction": "Direct sow seed",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        3,
+        4,
+        8,
+        9
+      ]
+    },
+    {
+      "plantId": "spotted_joe_pye_weed",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Spotted joe-pye-weed"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "summersweet",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Sweet pepperbush"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "swamp_milkweed",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Swamp milkweed"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "swamp_white_oak",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Swamp white oak"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "sweet_fern",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Sweet fern"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "swiss_chard",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Swiss chard"
+      ],
+      "plantingAction": "Direct sow seed",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        4,
+        5
+      ]
+    },
+    {
+      "plantId": "tomato",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Tomato"
+      ],
+      "plantingAction": "Use transplants",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        5
+      ]
+    },
+    {
+      "plantId": "watermelon",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Watermelon"
+      ],
+      "plantingAction": "Direct sow seed",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        5
+      ]
+    },
+    {
+      "plantId": "white_wood_aster",
+      "status": "recommended",
+      "recommendationKeys": [
+        "White wood aster"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "wild_bergamot",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Wild bergamot"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "winter_squash",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Winter squash"
+      ],
+      "plantingAction": "Direct sow seed",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        5
+      ]
+    },
+    {
+      "plantId": "winterberry_holly",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Winterberry holly"
+      ],
+      "plantingAction": "Plant a nursery-grown plant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "Philadelphia Water Department · Native and Recommended Non-Invasive Plants",
+      "sourceUrl": "https://water.phila.gov/wp-content/uploads/files/table-i-1-non-invasive-plants-1.pdf",
+      "plantingMonths": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "plantId": "zucchini",
+      "status": "recommended",
+      "recommendationKeys": [
+        "Bush squash"
+      ],
+      "plantingAction": "Seed or transplant",
+      "reviewedAt": "August 2026",
+      "sourceLabel": "University of Delaware Cooperative Extension · Planning a Vegetable Garden",
+      "sourceUrl": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/planning-a-vegetable-garden/",
+      "plantingMonths": [
+        5
+      ]
+    }
+  ]
+}

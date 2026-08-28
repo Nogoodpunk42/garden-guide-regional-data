@@ -8,6 +8,15 @@ import subprocess
 import tempfile
 from pathlib import Path
 
+from build_delaware_valley_pack import (
+    COMMUNITY_GARDEN_IDS,
+    NATIVE_IDS as DELAWARE_NATIVE_IDS,
+    PHILADELPHIA_PLANTS_URL,
+    UD_GROW_URL,
+    UD_PLANNING_URL,
+    VEGETABLE_MONTHS as DELAWARE_VEGETABLE_MONTHS,
+)
+
 
 ROOT = Path(__file__).resolve().parents[1]
 ALLOWED_STATUSES = {"recommended", "conditional", "reference_only", "prohibited"}
@@ -112,11 +121,11 @@ def main():
     require(manifest.get("schemaVersion") == 1, "manifest schemaVersion must be 1")
     require(manifest.get("signatureAlgorithm") == "SHA256withRSA",
             "manifest signature algorithm is unsupported")
-    require(manifest.get("catalogVersion") == "2026.08.28.1",
-            "catalogVersion must identify catalog-driven regional routing")
+    require(manifest.get("catalogVersion") == "2026.08.28.2",
+            "catalogVersion must identify the Delaware Valley expansion")
     packs = manifest.get("packs")
-    require(isinstance(packs, list) and len(packs) == 2,
-            "manifest must contain the two pilot packs")
+    require(isinstance(packs, list) and len(packs) == 3,
+            "manifest must contain the three regional packs")
     pack_ids = set()
     loaded = {}
     for entry in packs:
@@ -125,8 +134,6 @@ def main():
         pack_ids.add(pack_id)
         require(str(entry.get("url", "")).startswith("https://"),
                 f"{pack_id}: HTTPS pack URL is required")
-        require(entry.get("minAppVersionCode") == 45,
-                f"{pack_id}: minAppVersionCode must be 45")
         expected_coverage = {
             "us-nj-south": {
                 "country": "US",
@@ -155,12 +162,31 @@ def main():
                     "maxLongitude": -74.00,
                 },
             },
+            "us-delaware-valley": {
+                "country": "US",
+                "state": "PA/DE",
+                "priority": 100,
+                "zipPrefixRanges": [{"start": 190, "end": 199}],
+                "bounds": {
+                    "minLatitude": 39.40,
+                    "maxLatitude": 40.65,
+                    "minLongitude": -76.20,
+                    "maxLongitude": -75.150001,
+                },
+            },
         }
         require(entry.get("coverage") == expected_coverage.get(pack_id),
                 f"{pack_id}: signed coverage routing metadata is incorrect")
-        expected_version = 3 if pack_id == "us-nj-north-central" else 2
+        expected_version = {
+            "us-nj-south": 2,
+            "us-nj-north-central": 3,
+            "us-delaware-valley": 1,
+        }.get(pack_id)
         require(entry.get("version") == expected_version,
                 f"{pack_id}: expected pack version {expected_version}")
+        expected_min_app = 47 if pack_id == "us-delaware-valley" else 45
+        require(entry.get("minAppVersionCode") == expected_min_app,
+                f"{pack_id}: minAppVersionCode must be {expected_min_app}")
         path = ROOT / "packs" / entry["assetName"]
         content = path.read_bytes()
         require(len(content) == entry.get("sizeBytes"), f"{pack_id}: byte count mismatch")
@@ -170,6 +196,7 @@ def main():
 
     south = loaded["us-nj-south"]
     north = loaded["us-nj-north-central"]
+    delaware = loaded["us-delaware-valley"]
     south_counts = {}
     for review in south["reviews"]:
         south_counts[review["status"]] = south_counts.get(review["status"], 0) + 1
@@ -223,9 +250,35 @@ def main():
     require(parsnip["plantingAction"] == "Direct sow fresh seed" and
             parsnip["plantingMonths"] == [4],
             "parsnip must use the Rutgers FS129 home-garden window")
+
+    delaware_reviews = delaware["reviews"]
+    expected_delaware_ids = set(DELAWARE_VEGETABLE_MONTHS) | DELAWARE_NATIVE_IDS
+    require({review["plantId"] for review in delaware_reviews} == expected_delaware_ids,
+            "Delaware Valley pack has an unexpected review identity")
+    require(len(delaware_reviews) == 45,
+            "Delaware Valley pack must cover 45 reviewed identities")
+    delaware_keys = []
+    for review in delaware_reviews:
+        plant_id = review["plantId"]
+        require(review["status"] == "recommended",
+                f"Delaware Valley review is not recommended: {plant_id}")
+        if plant_id in DELAWARE_NATIVE_IDS:
+            require(review["sourceUrl"] == PHILADELPHIA_PLANTS_URL,
+                    f"Delaware Valley native is not Philadelphia-backed: {plant_id}")
+            require(review["plantingMonths"] == [3, 4, 5, 9, 10, 11],
+                    f"Delaware Valley native has an unexpected planting window: {plant_id}")
+        else:
+            expected_url = UD_GROW_URL if plant_id in COMMUNITY_GARDEN_IDS else UD_PLANNING_URL
+            require(review["sourceUrl"] == expected_url,
+                    f"Delaware Valley vegetable is not Delaware-backed: {plant_id}")
+            require(review["plantingMonths"] == DELAWARE_VEGETABLE_MONTHS[plant_id],
+                    f"Delaware Valley vegetable has an unexpected planting window: {plant_id}")
+        delaware_keys.extend(review.get("recommendationKeys", []))
+    require(len(delaware_keys) == 46 and len(delaware_keys) == len(set(delaware_keys)),
+            "Delaware Valley pack must cover 46 unique recommendation records")
     verify_signature()
-    print("Catalog validation passed: 2 signed packs with coverage routing; "
-          "South 98 records; North/Central 50 records")
+    print("Catalog validation passed: 3 signed packs with coverage routing; "
+          "South 98 records; North/Central 50 records; Delaware Valley 46 records")
 
 
 if __name__ == "__main__":
