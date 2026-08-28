@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "2026.08.27.3",
-  "generatedAt": "2026-08-27T22:29:00Z",
+  "catalogVersion": "2026.08.28.1",
+  "generatedAt": "2026-08-28T19:34:24Z",
   "signatureAlgorithm": "SHA256withRSA",
   "packs": [
     {
@@ -10,6 +10,23 @@
       "assetName": "regional_reviews_south_jersey_2026.json",
       "version": 2,
       "builtIn": true,
+      "coverage": {
+        "country": "US",
+        "state": "NJ",
+        "priority": 100,
+        "zipPrefixRanges": [
+          {
+            "start": 80,
+            "end": 84
+          }
+        ],
+        "bounds": {
+          "minLatitude": 38.9,
+          "maxLatitude": 40.149999,
+          "minLongitude": -75.15,
+          "maxLongitude": -74.0
+        }
+      },
       "url": "https://raw.githubusercontent.com/Nogoodpunk42/garden-guide-regional-data/main/packs/regional_reviews_south_jersey_2026.json",
       "sha256": "a6f0ad806ba7bfbce1e64041307d34f0cc913423f47ad8ecd880238c847ad9da",
       "sizeBytes": 49276,
@@ -21,6 +38,27 @@
       "assetName": "regional_reviews_north_central_jersey_2026.json",
       "version": 3,
       "builtIn": false,
+      "coverage": {
+        "country": "US",
+        "state": "NJ",
+        "priority": 100,
+        "zipPrefixRanges": [
+          {
+            "start": 70,
+            "end": 79
+          },
+          {
+            "start": 85,
+            "end": 89
+          }
+        ],
+        "bounds": {
+          "minLatitude": 40.15,
+          "maxLatitude": 41.4,
+          "minLongitude": -75.15,
+          "maxLongitude": -74.0
+        }
+      },
       "url": "https://raw.githubusercontent.com/Nogoodpunk42/garden-guide-regional-data/main/packs/regional_reviews_north_central_jersey_2026.json",
       "sha256": "565376b419e250b377563bd156502bab8f9b73308cf635408f6f2893ad5e06f9",
       "sizeBytes": 2182,

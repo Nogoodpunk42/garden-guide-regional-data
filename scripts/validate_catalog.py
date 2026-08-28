@@ -112,8 +112,8 @@ def main():
     require(manifest.get("schemaVersion") == 1, "manifest schemaVersion must be 1")
     require(manifest.get("signatureAlgorithm") == "SHA256withRSA",
             "manifest signature algorithm is unsupported")
-    require(manifest.get("catalogVersion") == "2026.08.27.3",
-            "catalogVersion must identify vegetable evidence correction 03")
+    require(manifest.get("catalogVersion") == "2026.08.28.1",
+            "catalogVersion must identify catalog-driven regional routing")
     packs = manifest.get("packs")
     require(isinstance(packs, list) and len(packs) == 2,
             "manifest must contain the two pilot packs")
@@ -127,6 +127,37 @@ def main():
                 f"{pack_id}: HTTPS pack URL is required")
         require(entry.get("minAppVersionCode") == 45,
                 f"{pack_id}: minAppVersionCode must be 45")
+        expected_coverage = {
+            "us-nj-south": {
+                "country": "US",
+                "state": "NJ",
+                "priority": 100,
+                "zipPrefixRanges": [{"start": 80, "end": 84}],
+                "bounds": {
+                    "minLatitude": 38.90,
+                    "maxLatitude": 40.149999,
+                    "minLongitude": -75.15,
+                    "maxLongitude": -74.00,
+                },
+            },
+            "us-nj-north-central": {
+                "country": "US",
+                "state": "NJ",
+                "priority": 100,
+                "zipPrefixRanges": [
+                    {"start": 70, "end": 79},
+                    {"start": 85, "end": 89},
+                ],
+                "bounds": {
+                    "minLatitude": 40.15,
+                    "maxLatitude": 41.40,
+                    "minLongitude": -75.15,
+                    "maxLongitude": -74.00,
+                },
+            },
+        }
+        require(entry.get("coverage") == expected_coverage.get(pack_id),
+                f"{pack_id}: signed coverage routing metadata is incorrect")
         expected_version = 3 if pack_id == "us-nj-north-central" else 2
         require(entry.get("version") == expected_version,
                 f"{pack_id}: expected pack version {expected_version}")
@@ -193,7 +224,8 @@ def main():
             parsnip["plantingMonths"] == [4],
             "parsnip must use the Rutgers FS129 home-garden window")
     verify_signature()
-    print("Catalog validation passed: 2 signed packs; South 98 records; North/Central 50 records")
+    print("Catalog validation passed: 2 signed packs with coverage routing; "
+          "South 98 records; North/Central 50 records")
 
 
 if __name__ == "__main__":
