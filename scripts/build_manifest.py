@@ -11,7 +11,7 @@ BASE_URL = (
     "https://raw.githubusercontent.com/Nogoodpunk42/"
     "garden-guide-regional-data/main/packs"
 )
-CATALOG_VERSION = "2026.08.27.3"
+CATALOG_VERSION = "2026.08.28.1"
 PACKS = (
     {
         "id": "us-nj-south",
@@ -19,6 +19,18 @@ PACKS = (
         "assetName": "regional_reviews_south_jersey_2026.json",
         "version": 2,
         "builtIn": True,
+        "coverage": {
+            "country": "US",
+            "state": "NJ",
+            "priority": 100,
+            "zipPrefixRanges": [{"start": 80, "end": 84}],
+            "bounds": {
+                "minLatitude": 38.90,
+                "maxLatitude": 40.149999,
+                "minLongitude": -75.15,
+                "maxLongitude": -74.00,
+            },
+        },
     },
     {
         "id": "us-nj-north-central",
@@ -26,6 +38,21 @@ PACKS = (
         "assetName": "regional_reviews_north_central_jersey_2026.json",
         "version": 3,
         "builtIn": False,
+        "coverage": {
+            "country": "US",
+            "state": "NJ",
+            "priority": 100,
+            "zipPrefixRanges": [
+                {"start": 70, "end": 79},
+                {"start": 85, "end": 89},
+            ],
+            "bounds": {
+                "minLatitude": 40.15,
+                "maxLatitude": 41.40,
+                "minLongitude": -75.15,
+                "maxLongitude": -74.00,
+            },
+        },
     },
 )
 
@@ -47,7 +74,7 @@ def main():
     manifest = {
         "schemaVersion": 1,
         "catalogVersion": CATALOG_VERSION,
-        "generatedAt": "2026-08-27T22:29:00Z",
+        "generatedAt": "2026-08-28T19:34:24Z",
         "signatureAlgorithm": "SHA256withRSA",
         "packs": published,
     }

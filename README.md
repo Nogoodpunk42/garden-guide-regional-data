@@ -9,6 +9,8 @@ or other user data.
 ## Published files
 
 - `manifest.json` lists every available pack, version, size, checksum, and minimum app version.
+- Each manifest entry carries signed ZIP-prefix and coordinate coverage used for automatic region
+  selection by catalog-driven app releases.
 - `manifest.sig` is an RSA/SHA-256 signature over the exact `manifest.json` bytes.
 - `catalog-signing-public-key.pem` lets the app and CI verify that signature.
 - `packs/` contains human-readable regional JSON packages.
@@ -50,3 +52,6 @@ The pilot reads the public bootstrap manifest from:
 
 Pack URLs live inside the signed manifest, so the files can move to a dedicated CDN later without
 changing the package format.
+
+Coverage rules also live inside the signed manifest. New regions can therefore become visible and
+eligible for automatic property matching without hard-coded app buttons or an APK release.
